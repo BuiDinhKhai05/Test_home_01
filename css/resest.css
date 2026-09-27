@@ -1,0 +1,41 @@
+/* Xóa margin, padding mặc định và chuẩn hóa box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  overflow-x: hidden; /* Chống cuộn ngang trượt khung trên điện thoại */
+}
+
+/* Đảm bảo ảnh linh hoạt theo khung chứa */
+img, svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button, input {
+  font: inherit;
+  border: none;
+  outline: none;
+}

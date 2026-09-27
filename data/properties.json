@@ -1,0 +1,28 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "title": "The Stokes Appartment",
+      "location": "Cleveland, United States",
+      "price": "$2,32,120",
+      "type": "Appartment",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "The Stokes Appartment",
+      "location": "Cleveland, United States",
+      "price": "$2,32,120",
+      "type": "Appartment",
+      "featured": false
+    },
+    {
+      "id": 3,
+      "title": "The Stokes Appartment",
+      "location": "Cleveland, United States",
+      "price": "$2,32,120",
+      "type": "Appartment",
+      "featured": false
+    }
+  ]
+}
